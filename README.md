@@ -8,13 +8,15 @@ Scripts for parsing raw video records downloaded from NTU COOL (usually `video_a
 - numpy
 - pandas
 
-## Parsing raw records
+## Usage
+
+### Parse raw records
 
 ```
 python get_view_prog.py -i [raw data] -o [path for saving records] -d [path for saving duration]
 ```
 
-## Calculating completion rate
+### Calculate completion rate
 
 As raw records are acculmulated since the first video, you can open the record csv generated at the previous step, and delete the useless columns. The columns kept in the generated records will all be used for calculating averge completion rate.
 
